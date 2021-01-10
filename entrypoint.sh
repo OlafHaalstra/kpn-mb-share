@@ -4,7 +4,7 @@
 echo "Docker container has been started"
 
 # Setup a cron schedule
-echo "5 * 1 * * sh /app/run.sh >> /app/cron.log 2>&1
+echo "5 * 1 * * sh /app/run.sh > /dev/stdout
 # This extra line makes it a valid cron" > scheduler.txt
 
 crontab scheduler.txt
