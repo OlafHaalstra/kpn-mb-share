@@ -37,4 +37,7 @@ for n,m in zip(NUMBERS, MBS):
 
     response = session.request("POST", url, headers=headers, data = payload)
 
+    if response.status_code != 200:
+        print(response.text)
+
 print("MBs sent, see you next month.")
