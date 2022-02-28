@@ -13,7 +13,7 @@ print("Sending MBs")
 
 session = requests.Session()
 
-url = "https://account.kpn.com/api/cigateway/v1/login"
+url = "https://api.kpn.com/cigateway/v1/login"
 
 payload = 'username={}&password={}&grant_type=password&response_type=token'.format(EMAIL, PASSWORD)
 headers = {
