@@ -20,7 +20,7 @@ The easiest way is to log in to [mijn.kpn.com](mijn.kpn.com) and open the develo
 Once you have successfully created a `.env` file you can now run the script on a server, if you use Docker you can run:
 ```
 docker build -t kpn-mb-share . 
-docker run -d --name kpn-mb-share
+docker run -d kpn-mb-share --name kpn-mb-share
 ```
 
 The script is scheduled with `cron` in `entrypoint.sh` to run every first of the month at exactly 00:05.
