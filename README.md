@@ -1,6 +1,8 @@
 # Share KPN MBs with family members
 Docker container to share MBs between mobile phone numbers at the first of the month.
 
+Archived since KPN implemented this feature natively in their app as of May 2022.
+
 ## Installation
 Create a `.env` file with your preferences, see the `.env.example` file which fields must be filled. Do not forget to remove the comments. A correct `.env` file could look like this:
 ```
